@@ -11,8 +11,8 @@ export const RefEx = () => {
   return (
     <div>
       <input
-        type="text"
         ref={inputRef}
+        type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
